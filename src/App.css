@@ -145,6 +145,7 @@ a.navbar-brand img{
     flex-direction: row;
     justify-content: space-between;
     width: 200px;
+    margin-left: 10px;
 }
   
 .socials__button__media {

@@ -46,7 +46,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .btn-contact{
-    padding: 10px;
+    width: 100%;
+    font-size: 100%;
     position: relative;
     background-color: var(--secondary-color);
     text-decoration: none;

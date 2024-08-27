@@ -16,7 +16,7 @@ function LearnMore(){
                     <p className="info-p">
                     Sign up for Mini AI to gain a hands-on introduction to artificial intelligence, sparking creativity and building essential future skills.
                     </p>
-                    <button className="learnmore" id="formLink" onClick={handleClick}>Sign Up Now!</button>
+                    <button className="learnmore" id="formLink" onClick={handleClick}>Sign Up</button>
                     </div>
                 </Col>
                 <Col xs={12} md={6} className="d-flex justify-content-center miniSvg">

@@ -369,6 +369,10 @@ a.navbar-brand img{
     fill: white;
 }
 
+.miniSvg{
+  padding: 3%;
+}
+
 #formLink:hover:before{
     background-color: var(--secondary-color);
 }

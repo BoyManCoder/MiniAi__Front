@@ -1,45 +1,54 @@
-import { Col, Container, Row } from "react-bootstrap"
-import Alert from 'react-bootstrap/Alert';
-import MiniAiLong from "../assets/MiniAiLong.png"
+import React from 'react';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBBtn, MDBInput, MDBIcon } from 'mdb-react-ui-kit';
+import Socials from './Socials';
 
-function Footer(){
-
-    return(
+function Footer() {
+    return (
         <>
-        <footer>
-            <Container className="d-flex justify-content-center foot-bg">
-                <Row className="align-item-center footer">
-                    <Col sm={6} className="d-flex align-items-center">
-                    <Alert variant="success">
-                    <div className="">
-                            <table>
-                                <tr>
-                                    <td onClick={()=>{window.location.href = "mission.html"}}><a>Mission</a></td>
-                                    <td onClick={()=>{window.location.href = "executives.html"}}>
-                                        <a>Executives</a>
-                                    </td>
-                                    <td><a href="https://www.linkedin.com/company/mini-ai/">LinkedIn</a></td>
-                                    <td><a href="mailto:miniai.toronto@gmail.com">Email</a></td>
-                                    <td>
-                                        <a href="https://www.instagram.com/miniai.to?igsh=dnpydmc3aGQwY2Fr">Instagram</a>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
-                    </Alert>
-                        
-                    </Col>
-                    <Col sm={6} className="text-center text-sm-end">
-                    <div className="footer-left">
-                        <img src={MiniAiLong}/>
-                        </div>
-                    </Col>
-                    <p className="cr">CopyRight 2024. All Rights Reserved. MiniAi</p>
-                </Row>
-            </Container>
-        </footer>
+        <MDBFooter className='text-center' color='white' bgColor='dark'>
+      <MDBContainer className='p-4'>
+        <section className=''>
+          <form action=''>
+            <MDBRow className='d-flex justify-content-center'>
+              <MDBCol size="auto">
+                <p className='pt-2'>
+                  <strong>Sign up for our newsletter</strong>
+                </p>
+              </MDBCol>
+
+              <MDBCol md='5' start>
+                <MDBInput contrast type='email' placeholder='Email' className='mb-4' />
+              </MDBCol>
+
+              <MDBCol size="auto">
+                <MDBBtn outline color='light' type='submit' className=''>
+                  Subscribe
+                </MDBBtn>
+              </MDBCol>
+            </MDBRow>
+            <MDBRow>
+                <MDBCol className='d-flex justify-content-center mb-1'>
+                <div className="mt-1">
+                <Socials/>
+                </div>
+                </MDBCol>
+            </MDBRow>
+          </form>
+        </section>
+
+        <section className='mb-4'>
+          <p>
+            Be sure to subscribe to our newsletter to stay up to date with the latest Mini AI News!
+          </p>
+        </section>
+      </MDBContainer>
+
+      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        © 2024 Copyright Mini AI
+      </div>
+    </MDBFooter>
         </>
-    )
+    );
 }
 
 export default Footer;

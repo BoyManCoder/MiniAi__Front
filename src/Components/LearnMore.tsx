@@ -9,7 +9,7 @@ function LearnMore(){
     return ( <> <section className="banner" id="home">
         <div className="more-info">
         <Container>
-            <Row className="align-items-center info-card">
+            <Row className="align-items-center justify-content-center info-card">
                 <Col xs={12} md={6}>
                     <div className="info-text">
                     <h3><span className="info-head">Sign Up Today</span></h3>
@@ -19,7 +19,7 @@ function LearnMore(){
                     <button className="learnmore" id="formLink" onClick={handleClick}>Sign Up</button>
                     </div>
                 </Col>
-                <Col xs={12} md={6} className="d-flex justify-content-center miniSvg">
+                <Col xs={10} md={6} className="d-flex justify-content-center miniSvg">
                     <img src={MiniAiHeadWhite}/>
                 </Col>
             </Row>

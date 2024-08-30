@@ -37,13 +37,29 @@ h1, h2, h3, h4, h5, h6{
     padding: 10px 0;
     position: fixed;
     z-index: 9999;
-    padding: 50px;
+    padding: 10px;
     font-size: 100%;
     top: 0;
     left: 0;
     transition: 0.5s ease-in-out;
-    background: var(--main-color);
+    background: var(--fourth-color);
 }
+
+a.navbar-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;  /* Set the width of the cropping area */
+  height: 70px; /* Set the height of the cropping area */
+  overflow: hidden; /* Hide the overflow of the image */
+}
+
+a.navbar-brand img{
+  position: absolute;
+  width: auto !important;
+  height: 90px !important;  /* Maintain the aspect ratio */
+}
+
 
 .btn-contact{
     font-size: 100%;
@@ -979,4 +995,30 @@ body{
 .gallery-container h3{
   font-size: 1.2em;
   font-weight: normal;
+}
+
+/* ImageGallery.css */
+
+/* Ensures the carousel takes full width of its container */
+.carousel {
+  max-width: 60%;
+}
+
+/* Makes sure images scale to fit the container */
+.carousel-item img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Optional: Add responsive padding or margin if needed */
+.gallery-container {
+  padding: 20px;
+}
+
+.gallery-head h1, .gallery-head h3 {
+  color: #fff; /* Adjust text color to ensure readability on different backgrounds */
+}
+
+.carousel-caption{
+  display: none;
 }

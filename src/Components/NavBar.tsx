@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useEffect, useState } from 'react';
-import MiniSVG from '../assets/MiniAiSVG.svg'
+import MiniSVG from '../assets/MiniAiLong.png'
 import Socials from './Socials';
 
 function NavBar() {
@@ -34,8 +34,8 @@ function NavBar() {
 
   return (
     <Navbar expand="lg" className= {scrolled ? "scrolled" : ""} >
-      <Container >
-        <Navbar.Brand href="#home"><img src={MiniSVG}/>Mini Ai</Navbar.Brand>
+      <Container className="ms-5">
+        <Navbar.Brand href="#home"><img src={MiniSVG}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

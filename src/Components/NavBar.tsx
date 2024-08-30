@@ -42,8 +42,7 @@ function NavBar() {
             <Nav.Link href="index.html" className={handleActive("home")} onClick={()=>{onUpdateActiveLink("home")}} >Home</Nav.Link>
             <Nav.Link href="mission.html" className={handleActive("mission")} onClick={()=>{onUpdateActiveLink("mission")}} >Mission</Nav.Link>
             <Nav.Link href="executives.html" className={handleActive("exec")} onClick={()=>{onUpdateActiveLink("exec")}} >Executives</Nav.Link>
-            <Nav.Link href="#sliders" className={handleActive("sliders")} onClick={()=>{onUpdateActiveLink("sliders")}} >Testimonials</Nav.Link>
-          </Nav>
+            </Nav>
           <span className="navbar-text">
             <Socials/>      
           </span>

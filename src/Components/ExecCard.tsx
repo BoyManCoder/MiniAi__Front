@@ -6,9 +6,13 @@ interface Props {
     name: string;
     subname: string;
     desc: string;
+    linkedin: string;
 }
 
-function ExecCard({ imgURL, name, subname, desc }: Props) {
+function ExecCard({ imgURL, name, subname, desc, linkedin }: Props) {
+    const handleClick = ()=>{
+        window.location.href = linkedin
+    }
     const cardRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
@@ -60,7 +64,7 @@ function ExecCard({ imgURL, name, subname, desc }: Props) {
                         <div className="card__foot">
                             <div className="body__button">
                                 <div className="body__button__bg">
-                                    <button type="button" onClick={() => {}}>More Info</button>
+                                    <button type="button" onClick={handleClick}>More Info</button>
                                 </div>
                             </div>
                         </div>

@@ -11,6 +11,7 @@ function ExecPage() {
         {/* Big Card 1 */}
         <Col md={8} lg={6}>
           <ExecCard
+          linkedin='https://www.linkedin.com/in/srigan-sivagnanenthirarajah-418601206/'
             imgURL="[img]"
             name="Srigan Siva"
             subname="CEO and Outreach Lead"
@@ -22,6 +23,7 @@ function ExecPage() {
         {/* Big Card 2 */}
         <Col md={8} lg={6}>
           <ExecCard
+          linkedin='https://www.linkedin.com/in/vedant-kansara-381330221/'
             imgURL="[img]"
             name="Vedant Kansara"
             subname="COO and Curriculum Developer"
@@ -33,10 +35,11 @@ function ExecPage() {
         {/* Big Card 3 */}
         <Col md={8} lg={6}>
           <ExecCard
+            linkedin='https://www.linkedin.com/in/hanimahdi/'
             imgURL="[img]"
             name="Hani Mahdi"
             subname="Lead Web Developer"
-            desc="I'm a talented teenage front-end web developer who served as the lead developer at Mini Ai, where I recently spearheaded the design of our cutting-edge website."
+            desc="I am a talented teenage front-end web developer currently studying at Northview Heights Secondary School. As the lead developer at Mini AI, I recently spearheaded the design and development of our innovative website using React.js, Bootstrap, and other modern libraries. My role involved leveraging my expertise to deliver a dynamic and engaging online presence for our company."
           />
         </Col>
       </Row>

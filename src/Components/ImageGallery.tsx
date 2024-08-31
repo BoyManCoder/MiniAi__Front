@@ -7,7 +7,7 @@ import Lesson3 from '../assets/Lesson3.jpg';
 function ImageGallery() {
     return (
         <>
-            <Container className="gallery-container gradient-bg">
+            <Container className="gallery-container gradient-bg" id="sample">
                 <Row>
                     <div className="text-center mb-5 mt-1 gallery-head">
                         <h1>See samples from our lessons!</h1>

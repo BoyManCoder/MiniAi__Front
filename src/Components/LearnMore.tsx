@@ -6,7 +6,7 @@ function LearnMore(){
         console.log("clicked")
         window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSdaus9hKPUaws1zPxHIfev2tSm5vdjoJtkZA1hnvJPoqJB_9g/viewform?usp=embed_facebook"
     }
-    return ( <> <section className="banner" id="home">
+    return ( <> <section className="banner" id="learnmore">
         <div className="more-info">
         <Container>
             <Row className="align-items-center justify-content-center info-card">
@@ -19,7 +19,7 @@ function LearnMore(){
                     <button className="learnmore" id="formLink" onClick={handleClick}>Sign Up</button>
                     </div>
                 </Col>
-                <Col xs={10} md={6} className="d-flex justify-content-center miniSvg">
+                <Col xs={12} md={6} className="d-flex justify-content-center miniSvg">
                     <img src={MiniAiHeadWhite}/>
                 </Col>
             </Row>

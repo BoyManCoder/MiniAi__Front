@@ -5,7 +5,8 @@ import ExecCardSmall from './ExecCardSmall';
 
 function ExecPage() {
   return (
-    <Container className="d-flex flex-column justify-content-center align-items-center pd">
+    <body className="execBody">
+          <Container className="d-flex flex-column justify-content-center align-items-center pd">
       <Row className="d-none d-md-block justify-content-center">
         {/* Big Card 1 */}
         <Col md={8} lg={6}>
@@ -74,6 +75,7 @@ function ExecPage() {
         </Col>
       </Row>
     </Container>
+    </body>
   );
 }
 

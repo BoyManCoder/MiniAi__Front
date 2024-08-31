@@ -1,7 +1,9 @@
 import { Container, Row, Col } from "react-bootstrap"; 
 
 function Landing(){
-
+    const handleClick = ()=>{
+        window.location.href = "#learnmore"
+    }
 
     return <>
     <section className="banner" id="home">
@@ -20,7 +22,7 @@ function Landing(){
                     </div>
                 </Col>
                 <Col xs={12}>
-                <div className="btn-container"><button className="learnmore">Get Started</button></div>
+                <div className="btn-container"><button onClick={handleClick} className="learnmore">Get Started</button></div>
                 </Col>
                 </div>
             </Row>

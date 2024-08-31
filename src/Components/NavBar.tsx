@@ -34,7 +34,7 @@ function NavBar() {
 
   return (
     <Navbar expand="lg" className= {scrolled ? "scrolled" : ""} >
-      <Container className="ms-5">
+      <Container>
         <Navbar.Brand href="#home"><img src={MiniSVG}/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav">

@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6{
     top: 0;
     left: 0;
     transition: 0.5s ease-in-out;
-    background: var(--fourth-color);
+    background: white;
 }
 
 a.navbar-brand {
@@ -116,7 +116,7 @@ a.navbar-brand img{
 }
 
 a.navbar-link{
-    color: white !important;
+    color: black !important;
 }
 
 a.navbar-brand{
@@ -381,6 +381,9 @@ a.navbar-brand img{
     text-align: left;
 }
 
+.miniSvg img{
+  width: 100%;
+}
 .miniSvg path{
     fill: white;
 }
@@ -544,7 +547,7 @@ a.navbar-brand img{
   flex-direction: row;
   justify-content: space-around;
   border-radius: 10px;
-  box-shadow: rgba(3, 134, 55, 0.4) 0vw 0vw 5vw;
+  box-shadow: var(--secondary-color) 0vw 0vw 5vw;
 }
 
 .contact__image__col {
@@ -934,7 +937,7 @@ a.navbar-brand img{
 
 .missionpage{
   background: linear-gradient(30deg, var(--fourth-color), var(--main-color));
-  padding: 3%;
+  padding: 5%;
 }
 
 .missionpage p{
@@ -989,7 +992,7 @@ body{
 
 .gallery-container{
   max-width: 100vw !important;
-  padding: 5%;
+  padding: 5% !important;
 }
 
 .gallery-container h3{
@@ -1002,6 +1005,20 @@ body{
 /* Ensures the carousel takes full width of its container */
 .carousel {
   max-width: 60%;
+}
+
+@media (max-width: 900px){
+  section{
+    font-size: 0.8em !important;
+  }
+
+  .carousel{
+    max-width: 100%;
+  }
+
+  .gallery-container{
+    padding: 10%;
+  }
 }
 
 /* Makes sure images scale to fit the container */
@@ -1021,4 +1038,13 @@ body{
 
 .carousel-caption{
   display: none;
+}
+
+.execBody{
+  height: 100%;
+  background: var(--main-color) !important;
+}
+
+.contact__card{
+  background: whitesmoke;
 }

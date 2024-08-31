@@ -1,6 +1,10 @@
 import { Container, Row, Col } from 'react-bootstrap';
 
 function MissionPage() {
+
+    const handleClick = ()=>{
+        window.location.href = "#sample"
+    }
     return (
         <section className="missionpage" id="mission">
         <div className="missionpage__container">
@@ -19,7 +23,7 @@ function MissionPage() {
                     </div>
                 </Col>
                 <Col xs={12}>
-                <div className="btn-container"><button className="learnmore">Learn More</button></div>
+                <div className="btn-container"><button onClick={handleClick} className="learnmore">Learn More</button></div>
                 </Col>
                 </div>
             </Row>

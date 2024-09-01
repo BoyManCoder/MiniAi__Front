@@ -32,7 +32,7 @@ function Footer() {
                                 </MDBCol>
                         </MDBRow>
 
-                        <section className='mb-4'>
+                        <section className='mb-4 mt-2'>
                             <p>
                                 Be sure to subscribe to our newsletter to stay up to date with the latest Mini AI News!
                             </p>

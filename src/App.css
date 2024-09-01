@@ -549,7 +549,7 @@ a.navbar-brand img{
 }
 
 .contact__image__col {
-  width: 40%;
+  width: 35%;
   height: 95%;
   background: linear-gradient(30deg, var(--fourth-color) 0%, var(--secondary-color), var(--fourth-color) 50%);
   padding: 10px;
@@ -559,12 +559,31 @@ a.navbar-brand img{
   justify-content: center;
 }
 
-.contact__image__content {
+.contact__image__content{
   width: 100%;
   height: 100%;
   background: var(--main-color);
   border-radius: 10px;
 
+}
+
+.contact__image__content img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-bx img {
+  border-radius: 0px 0px 20px 20px;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.chl img{
+  height: 200px !important;
+  object-fit: cover;
+  object-position: -70px 15px;
 }
 
 .contact__text__col {
@@ -702,23 +721,18 @@ a.navbar-brand img{
 }
 
 .small-card .profile-pic img {
-  -o-object-fit: cover;
-  object-fit: cover;
   width: 100%;
   height: 100%;
-  -o-object-position: 0px 0px;
-  object-position: 0px 0px;
+  object-fit: cover;
+  object-position: 0px -50px;
   transition: all 0.5s ease-in-out 0s;
 }
 
 .small-card .profile-pic svg {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: 0px 0px;
   object-position: 0px 0px;
-  transform-origin: 45% 20%;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -739,7 +753,7 @@ a.navbar-brand img{
   transition: all 0.5s;
   flex-direction: column;
   align-content: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .small-card .bottom .content {
@@ -750,12 +764,17 @@ a.navbar-brand img{
   height: 160px;
 }
 
+.small-card:hover .content{
+  margin-top: 35px;
+  transition: 1s ease-in-out;
+}
+
 .small-card .bottom .content .name {
   display: block;
   font-size: 1.2rem;
   color: white;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 20px;
 }
 
@@ -785,7 +804,6 @@ a.navbar-brand img{
 
 .small-card .bottom .bottom-bottom .social-links-container svg:hover {
   fill: var(--fourth-color);
-  transform: scale(1.2);
 }
 
 .small-card .bottom .bottom-bottom .button {
@@ -827,19 +845,15 @@ a.navbar-brand img{
 }
 
 .small-card:hover .profile-pic:hover {
-  transform: scale(1.3);
-  border-radius: 0px;
+  object-position: 0px 0px;
 }
 
 .small-card:hover .profile-pic img {
-  transform: scale(2.5);
-  -o-object-position: 0px 25px;
-  object-position: 0px 25px;
-  transition: all 0.5s ease-in-out 0.5s;
+  object-position: 0px 0px;
+  transition: all 0.1s ease-in-out 0.1s;
 }
 
 .small-card:hover .profile-pic svg {
-  transform: scale(2.5);
   transition: all 0.5s ease-in-out 0.5s;
 }
 

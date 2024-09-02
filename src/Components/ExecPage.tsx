@@ -4,6 +4,7 @@ import ExecCard from './ExecCard';
 import ExecCardSmall from './ExecCardSmall';
 import Srigan from "../assets/srigan.jpg"
 import Hani from "../assets/hani.jpg"
+import Vedant from "../assets/vedant.jpg"
 
 function ExecPage() {
   return (
@@ -26,7 +27,7 @@ function ExecPage() {
         <Col md={8} lg={6}>
           <ExecCard
           linkedin='https://www.linkedin.com/in/vedant-kansara-381330221/'
-            imgURL="[img]"
+            imgURL={Vedant}
             name="Vedant Kansara"
             subname="COO and Curriculum Developer"
             desc="Vedant is a motivated high school student from Northview Heights Secondary. He constantly spends time learning about the latest applications of artificial intelligence. In his spare time, he tutors children in math and helps refine their learning. Vedant is a passionate educator."
@@ -61,7 +62,7 @@ function ExecPage() {
         {/* Small Card 2 */}
         <Col xs={10} sm={8} md={6}>
           <ExecCardSmall
-            imgURL="[img]"
+            imgURL={Vedant}
             name="Vedant Kansara"
             subname="COO and Curriculum Developer"
             desc="Vedant is a motivated high school student from Northview Heights Secondary. He constantly spends time learning about the latest applications of artificial intelligence. In his spare time, he tutors children in math and helps refine their learning. Vedant is a passionate educator."

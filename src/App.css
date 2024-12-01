@@ -1060,3 +1060,39 @@ body{
 .contact__card{
   background: whitesmoke;
 }
+
+/* Apply styles specifically for the Testimonials component */
+.testimonials-carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.testimonials-carousel-container img{
+  height: 400px !important;
+  
+}
+.testimonials-carousel .carousel-item {
+  display: flex;
+  justify-content: center; /* Ensure the items are centered */
+}
+
+.testimonials-carousel-image{
+  object-fit: contain; /* Ensures the image covers the container, cropping if necessary */
+  width: 100%; /* Fill the width of the container */
+  border-radius: 8px; /* Optional: Adding rounded corners for visual appeal */
+}
+
+.carousel-intro{
+  padding-top: 50px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.xxx{
+  border-radius: 20px;
+  margin-top: 20px;
+  background: linear-gradient(30deg, var(--fourth-color) 0%, var(--main-color));
+}

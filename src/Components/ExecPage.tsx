@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import ExecCard from './ExecCard';
 import ExecCardSmall from './ExecCardSmall';
 import Srigan from "../assets/srigan.jpg"
-import Hani from "../assets/hani.jpg"
+import Hani from "../assets/Hani2.jpg"
 import Vedant from "../assets/vedant.jpg"
 
 function ExecPage() {

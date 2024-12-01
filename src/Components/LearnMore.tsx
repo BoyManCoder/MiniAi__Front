@@ -23,10 +23,21 @@ function LearnMore(){
                     <img src={MiniAiHeadWhite}/>
                 </Col>
             </Row>
-            <Row>
-                <Col xs={12}>
-                    <Testimonials />
-                </Col>
+            <Row className="mt-5">
+            <Col xs={12} className="xxx" >
+      
+      <div className="carousel-intro">
+        <h2>MiniAi' X Journey with Daisy</h2>
+        <p>
+          MiniAi recently teamed up with Journey with Daisy, a local senior care group,
+          to help seniors embrace technology and improve their daily lives.
+          Below are some images from this wonderful collaboration!
+        </p>
+      </div>
+
+      {/* Testimonials carousel */}
+      <Testimonials />
+    </Col>
             </Row>
         </Container>
         </div>

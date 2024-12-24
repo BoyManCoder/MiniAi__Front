@@ -1096,3 +1096,7 @@ body{
   margin-top: 20px;
   background: linear-gradient(30deg, var(--fourth-color) 0%, var(--main-color));
 }
+
+.haniID{
+  object-position: bottom !important;
+}

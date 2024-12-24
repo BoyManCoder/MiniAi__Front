@@ -7,9 +7,10 @@ interface Props {
     subname: string;
     desc: string;
     linkedin: string;
+    imgID: string;
 }
 
-function ExecCard({ imgURL, name, subname, desc, linkedin }: Props) {
+function ExecCard({ imgURL, name, subname, desc, linkedin, imgID}: Props) {
     const handleClick = ()=>{
         window.location.href = linkedin
     }
@@ -47,7 +48,7 @@ function ExecCard({ imgURL, name, subname, desc, linkedin }: Props) {
         <div className="contact__container">
             <div className="contact__card" ref={cardRef}>
                 <div className="contact__image__col">
-                    <div className="contact__image__content">
+                    <div className="contact__image__content">   
                             <img src={imgURL} alt="Profile" />
                         <div className="contact__label"></div>
                     </div>

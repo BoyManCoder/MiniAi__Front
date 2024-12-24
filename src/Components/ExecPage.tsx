@@ -16,6 +16,7 @@ function ExecPage() {
           <ExecCard
           linkedin='https://www.linkedin.com/in/srigan-sivagnanenthirarajah-418601206/'
             imgURL={Srigan}
+            imgID="srigID"
             name="Srigan Siva"
             subname="CEO and Outreach Lead"
             desc="Srigan is a motivated high school student from Northview Heights Secondary. He spends his days learning about the ever-growing industry of artificial intelligence. Through emails and messages, Srigan has generated hundreds of connections to start this project. In his spare time, he loves to learn about quantum mechanics. Srigan is a passionate educator."
@@ -28,6 +29,7 @@ function ExecPage() {
           <ExecCard
           linkedin='https://www.linkedin.com/in/vedant-kansara-381330221/'
             imgURL={Vedant}
+            imgID="vedantID"
             name="Vedant Kansara"
             subname="COO and Curriculum Developer"
             desc="Vedant is a motivated high school student from Northview Heights Secondary. He constantly spends time learning about the latest applications of artificial intelligence. In his spare time, he tutors children in math and helps refine their learning. Vedant is a passionate educator."
@@ -40,9 +42,10 @@ function ExecPage() {
           <ExecCard
             linkedin='https://www.linkedin.com/in/hanimahdi/'
             imgURL={Hani}
+            imgID="haniID"
             name="Hani Mahdi"
             subname="Lead Web Developer"
-            desc="I am a talented teenage front-end web developer currently studying at Northview Heights Secondary School. As the lead developer at Mini AI, I recently spearheaded the design and development of our innovative website using React.js, Bootstrap, and other modern libraries. My role involved leveraging my expertise to deliver a dynamic and engaging online presence for our company."
+            desc="Hani is a talented teenage front-end web developer currently studying at Northview Heights Secondary School. As the lead developer at Mini AI, he recently spearheaded the design and development of our website to create a prominent online presence for our company."
           />
         </Col>
       </Row>
@@ -53,6 +56,7 @@ function ExecPage() {
           <ExecCardSmall
             imgURL={Srigan}
             name="Srigan Siva"
+            imgID="srigID"
             subname="CEO and Outreach Lead"
             desc="Srigan is a motivated high school student from Northview Heights Secondary. He spends his days learning about the ever-growing industry of artificial intelligence. Through emails and messages, Srigan has generated hundreds of connections to start this project."
           />
@@ -63,6 +67,7 @@ function ExecPage() {
         <Col xs={10} sm={8} md={6}>
           <ExecCardSmall
             imgURL={Vedant}
+            imgID = "vedantID"
             name="Vedant Kansara"
             subname="COO and Curriculum Developer"
             desc="Vedant is a motivated high school student from Northview Heights Secondary. He constantly spends time learning about the latest applications of artificial intelligence. In his spare time, he tutors children in math and helps refine their learning. Vedant is a passionate educator."
@@ -75,6 +80,7 @@ function ExecPage() {
           <ExecCardSmall
             imgURL={Hani}
             name="Hani Mahdi"
+            imgID="haniID"
             subname="Lead Web Developer"
             desc="I'm a talented teenage front-end web developer who served as the lead developer at Mini Ai, where I recently spearheaded the design of our cutting-edge website."
           />

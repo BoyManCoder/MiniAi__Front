@@ -5,13 +5,14 @@ interface Props{
     name: string,
     subname: string,
     desc: string,
+    imgID: string,
 }
 
-function ExecCardSmall({imgURL, name, subname, desc}: Props){
+function ExecCardSmall({imgURL, name, subname, desc, imgID}: Props){
     return (<>
     <div className="small-card">
       <div className="profile-pic">
-        <img src={imgURL} />
+        <img className={imgID} src={imgURL} />
       </div>
       <div className="bottom">
         <div className="content">
